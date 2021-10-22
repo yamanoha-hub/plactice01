@@ -1,0 +1,114 @@
+
+body {
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+
+}
+
+header {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  height: 40px;
+  margin: 20px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.main-visual {
+  height: 551px;
+  background-image: url(../img/main.visual.png);
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+}
+
+.mv-copy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+}
+
+.main-visual h1 {
+  font-size: 36px;
+}
+.main-visual p {
+  margin-top: 10px;
+}
+
+
+
+
+.contact {
+  background-image: url(../img/Continue.png);
+  background-size: cover;
+  background-position: center;
+  height: 455px;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-inner {
+  padding: 59px 0 44px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 47px;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+
+.contact-text {
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+
+
+.contact-btn {
+  display: block;
+  width: 210px;
+  padding: 19px 0;
+  background-color: #83032A;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  margin: 0 auto;
+  color: #FFF;
+  font-weight: bold;
+  transition: 0.3;
+}
+
+.contact-btn:hover {
+  opacity: 0.8;
+}
+
+footer {
+  background-color: #333;
+  height: 80px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
