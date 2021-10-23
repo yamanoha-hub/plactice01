@@ -1,7 +1,7 @@
 
 body {
   font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
-
+  color: #333;
 }
 
 header {
@@ -53,6 +53,70 @@ header ul li {
 .main-visual p {
   margin-top: 10px;
 }
+
+
+.contents {
+  padding: 60px 0 88px;
+}
+.contents h2 {
+  font-size: 32px;
+  margin-bottom: 49px;
+  text-align: center;
+}
+
+.wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.content-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 310px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.18);
+}
+
+.card figure {
+  margin: 0;
+}
+
+.card-text {
+  padding: 20px;
+  height: 168px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text p {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.card-text time {
+  font-size: 16px;
+  margin-top: auto;
+}
+
+.contents-btn {
+  display: block;
+  width: 310px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 17px 0;
+  margin: 46px auto 0;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+
+
 
 
 
